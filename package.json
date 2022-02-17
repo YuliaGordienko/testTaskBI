@@ -1,0 +1,35 @@
+{
+  "name": "testtaskbi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js",
+    "start:dev": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliaGordienko/testTaskBI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliaGordienko/testTaskBI/issues"
+  },
+  "homepage": "https://github.com/YuliaGordienko/testTaskBI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "read-excel-file": "^5.2.28",
+    "xlsx": "^0.18.2"
+  }
+}
